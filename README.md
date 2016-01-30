@@ -9,6 +9,7 @@ To run:
 Cython code `test_cython.pyx` should be automatically compiled by `pyximport`. 
 
 Performance on Mac OS X 10.10 (Yosemite)
+```
 In [1]: %run -i test_numba.py
 test_numpy: 0.0805640220642
 Matches Numpy output: True
@@ -30,3 +31,4 @@ Matches Numpy output: True
 
 test_f2py_reorder: 0.507861852646
 Matches Numpy output: True
+```
